@@ -103,5 +103,8 @@ header {
     text-align: left;
 }
 ul{
-    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    list-style: none;
 }
