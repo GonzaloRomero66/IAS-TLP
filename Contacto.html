@@ -6,106 +6,108 @@
     <title>Document</title>
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
-  <body>
-    <header>
-      <h1>Instituto de Asistencia Social - IAS</h1>
-      <h2>Organismo de Control de Juegos de Azar</h2>
-      <nav id="menu-principal">
-        <a href="index.html">Inicio</a>
-        <a href="IAS.html">Sobre el IAS</a>
-        <a href="Funciones.html">Funciones</a>
-        <a href="Contacto.html">Contacto</a>
-      </nav>
-    </header>
-    <main>
-      <!-- Contactos -->
-      <h2>Contactos</h2>
-      <section>
-        <ul>
-          <li>
-            <strong>Direccion:</strong>
-            <address>Belgrano 798 - Formosa Capital CP P3600COR</address>
-          </li>
-          <li>
-            <strong>Telefono:</strong>
-            (+54) (370) 4429568
-          </li>
-          <li>
-            <strong>Correo Electronico:</strong>
-            <a href="mailto:info@ias.gob.ar">info@ias.gob.ar</a>
-          </li>
-        </ul>
-      </section>
-      <!-- Formulario-->
-      <section>
-        <h3>Formulario de consulta</h3>
-        <form id="Formulario" style="width: auto" action="#" method="post">
-          <label for="Nombre">Nombre</label><br />
-          <input
-            type="text"
-            name="Nombre"
-            id="Nombre"
-            placeholder="Ingrese su Nombre"
-            required
-          />
-          <br />
-          <label for="Gmail">Gmail</label><br />
-          <input
-            type="email"
-            name="Gmail"
-            id="Gmail"
-            placeholder="Ingrese su Gmail"
-            required
-          />
-          <br />
-          <label for="Telefono">Telefono</label> <br />
-          <input
-            type="tel"
-            name="Telefono"
-            id="Telefono"
-            placeholder="Ingrese su Telefono"
-            required
-          />
-          <br />
-          <label for="mensaje">Motivo:</label> <br />
-          <select name="Motivo" id="Motivo" required>
-            <option value="">Seleccione el motivo</option>
-            <option value="reclamo">Reclamo</option>
-            <option value="consulta">Consulta</option>
-            <option value="sugerencia">Sugerencia</option>
+  <div class="container">
+    <body>
+      <header>
+        <h1>Instituto de Asistencia Social - IAS</h1>
+        <h2>Organismo de Control de Juegos de Azar</h2>
+        <nav id="menu-principal">
+          <a href="index.html">Inicio</a>
+          <a href="IAS.html">Sobre el IAS</a>
+          <a href="Funciones.html">Funciones</a>
+          <a href="Contacto.html">Contacto</a>
+        </nav>
+      </header>
+      <main>
+        <!-- Contactos -->
+        <h2>Contactos</h2>
+        <section>
+          <ul>
+            <li>
+              <strong>Direccion:</strong>
+              <address>Belgrano 798 - Formosa Capital CP P3600COR</address>
+            </li>
+            <li>
+              <strong>Telefono:</strong>
+              (+54) (370) 4429568
+            </li>
+            <li>
+              <strong>Correo Electronico:</strong>
+              <a href="mailto:info@ias.gob.ar">info@ias.gob.ar</a>
+            </li>
+          </ul>
+        </section>
+        <!-- Formulario-->
+        <section>
+          <h3>Formulario de consulta</h3>
+          <form id="Formulario" style="width: auto" action="#" method="post">
+            <label for="Nombre">Nombre</label><br />
+            <input
+              type="text"
+              name="Nombre"
+              id="Nombre"
+              placeholder="Ingrese su Nombre"
+              required
+            />
             <br />
-          </select>
-          <br />
-          <label for="Mensaje">Mensaje</label><br />
-          <textarea
-            name="Mensaje"
-            id="Mensaje"
-            placeholder="Ingrese su mensaje"
-            required
-          ></textarea>
-          <br />
-          <button type="submit">Enviar</button>
-        </form>
-      </section>
-      <!-- Detalles -->
-      <section>
-        <details>
-          <summary>Horarios de atencion</summary>
-          <p>Lunes a viernes: 12:00 - 15:00</p>
-          <p>Sabados: 8:00 - 12:00</p>
-          <p>Domingo: Cerrado</p>
-        </details>
-      </section>
-      <section>
-        <h3>Ubicación</h3>
-        <a
-          href="https://www.google.com/maps/place/Instituto+de+Asistencia+Social/@-26.1820081,-58.1755841,15z/data=!4m22!1m15!4m14!1m6!1m2!1s0x945ca5dd94bf8b9f:0xc46100b79e1161f8!2sInstituto+de+Asistencia+Social,+Av.+25+de+Mayo+098,+P3600ACK+Formosa!2m2!1d-58.1649469!2d-26.182465!1m6!1m2!1s0x945ca5dd94bf8b9f:0xc46100b79e1161f8!2sInstituto+de+Asistencia+Social,+Av.+25+de+Mayo+098,+P3600ACK+Formosa!2m2!1d-58.1649469!2d-26.182465!3m5!1s0x945ca5dd94bf8b9f:0xc46100b79e1161f8!8m2!3d-26.1824524!4d-58.1649502!16s%2Fg%2F1v420k3f?entry=ttu&g_ep=EgoyMDI2MDQwMS4wIKXMDSoASAFQAw%3D%3D"
-          >Ver ubicacion en Google Maps</a
-        >
-      </section>
-    </main>
-    <footer>
-      <p><strong>&copy; 2026 Instituto de Asistencia Social - IAS</strong></p>
-    </footer>
-  </body>
+            <label for="Gmail">Gmail</label><br />
+            <input
+              type="email"
+              name="Gmail"
+              id="Gmail"
+              placeholder="Ingrese su Gmail"
+              required
+            />
+            <br />
+            <label for="Telefono">Telefono</label> <br />
+            <input
+              type="tel"
+              name="Telefono"
+              id="Telefono"
+              placeholder="Ingrese su Telefono"
+              required
+            />
+            <br />
+            <label for="mensaje">Motivo:</label> <br />
+            <select name="Motivo" id="Motivo" required>
+              <option value="">Seleccione el motivo</option>
+              <option value="reclamo">Reclamo</option>
+              <option value="consulta">Consulta</option>
+              <option value="sugerencia">Sugerencia</option>
+              <br />
+            </select>
+            <br />
+            <label for="Mensaje">Mensaje</label><br />
+            <textarea
+              name="Mensaje"
+              id="Mensaje"
+              placeholder="Ingrese su mensaje"
+              required
+            ></textarea>
+            <br />
+            <button type="submit">Enviar</button>
+          </form>
+        </section>
+        <!-- Detalles -->
+        <section>
+          <details>
+            <summary>Horarios de atencion</summary>
+            <p>Lunes a viernes: 12:00 - 15:00</p>
+            <p>Sabados: 8:00 - 12:00</p>
+            <p>Domingo: Cerrado</p>
+          </details>
+        </section>
+        <section>
+          <h3>Ubicación</h3>
+          <a
+            href="https://www.google.com/maps/place/Instituto+de+Asistencia+Social/@-26.1820081,-58.1755841,15z/data=!4m22!1m15!4m14!1m6!1m2!1s0x945ca5dd94bf8b9f:0xc46100b79e1161f8!2sInstituto+de+Asistencia+Social,+Av.+25+de+Mayo+098,+P3600ACK+Formosa!2m2!1d-58.1649469!2d-26.182465!1m6!1m2!1s0x945ca5dd94bf8b9f:0xc46100b79e1161f8!2sInstituto+de+Asistencia+Social,+Av.+25+de+Mayo+098,+P3600ACK+Formosa!2m2!1d-58.1649469!2d-26.182465!3m5!1s0x945ca5dd94bf8b9f:0xc46100b79e1161f8!8m2!3d-26.1824524!4d-58.1649502!16s%2Fg%2F1v420k3f?entry=ttu&g_ep=EgoyMDI2MDQwMS4wIKXMDSoASAFQAw%3D%3D"
+            >Ver ubicacion en Google Maps</a
+          >
+        </section>
+      </main>
+      <footer>
+        <p><strong>&copy; 2026 Instituto de Asistencia Social - IAS</strong></p>
+      </footer>
+    </body>
+  </div>
 </html>
