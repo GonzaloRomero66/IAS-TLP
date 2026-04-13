@@ -1,0 +1,103 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: whitesmoke;
+    margin: 20px auto;
+    padding: 0%;
+
+}
+
+
+p{
+line-height: 1.6;
+text-align: center;
+
+}
+main {
+    text-align: center;
+}
+
+a{
+    color: rgb(2, 173, 2);
+    text-decoration: none;
+}
+.destacado{
+    background-color: greenyellow;
+  
+}    
+.servicio-item{
+ padding: 10px;
+  margin: 5px;
+  border-left: 4px solid green;
+}
+
+
+button{
+    background-color: rgb(255, 255, 255);
+    color: green;
+    padding: 10;
+    border-radius: 4px;
+    cursor: pointer;
+    
+}
+button:hover{
+    background-color: green;
+    color: greenyellow;
+}
+mark {
+    background-color: greenyellow;
+    color:black
+}
+#menu-principal {
+background-color: rgb(42, 58, 42);
+list-style-type: decimal;
+}
+#Formulario {
+border: 4px solid green ;
+padding: 15px;
+margin: 10px auto;
+max-width: 400px;
+border-radius: 10px;
+}
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+width: auto;
+padding: 8px;
+margin-bottom: 10px;}
+    
+nav {
+padding: 10px;
+text-decoration: none;
+text-align: center;
+
+}
+    
+footer p {
+text-align: center;
+color: gray;
+}
+a:hover{
+color: greenyellow;
+text-decoration: none;
+font-size: 20px;
+}
+input:focus {
+    border: 2px solid green
+}
+h1 {
+    background-color: rgb(42, 58, 42);
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+header {
+    background-color: green;
+}
+
+#no-center {
+    text-align: left;
+}
+ul{
+    list-style-type: none;
+}
