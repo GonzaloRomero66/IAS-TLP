@@ -92,7 +92,10 @@ text-decoration: none;
 text-align: center;
 
 }
-    
+footer {
+    display: flex;
+    flex-direction: column;
+}
 footer p {
 text-align: center;
 color: gray;
