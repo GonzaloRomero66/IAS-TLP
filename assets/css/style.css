@@ -54,21 +54,38 @@ mark {
 #menu-principal {
 background-color: rgb(42, 58, 42);
 list-style-type: decimal;
+
 }
 #Formulario {
-border: 4px solid green ;
-padding: 15px;
-margin: 10px auto;
-max-width: 400px;
-border-radius: 10px;
+display: flex;
+flex-wrap: wrap;
+gap: 15px;
+width: 100%;
+flex-direction: row;
+;
 }
-input[type="text"],
-input[type="email"],
-input[type="tel"] {
-width: auto;
-padding: 8px;
-margin-bottom: 10px;}
-    
+.Juntos {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 15px;
+   
+}
+label {
+    width: 100%;
+}
+input{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+}
+textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    height: 100px;
+}
 nav {
 padding: 10px;
 text-decoration: none;
